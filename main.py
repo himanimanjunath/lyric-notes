@@ -14,7 +14,7 @@ def extractnotes(pdf_path):
         return text[:1000]
 
 def generatelyrics(notes):
-    HUGGINGFACE_API_KEY = "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"
+    HUGGINGFACE_API_KEY = ........
     API_URL = "https://api-inference.huggingface.co/models/t5-base"
 
     headers = {"Authorization": f"Bearer {HUGGINGFACE_API_KEY}"}
